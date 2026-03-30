@@ -53,7 +53,7 @@ jobs:
         
         - name: Commit and push changes
           run: |
-            git config --global user.email "rohitrawat891997"
+            git config --global user.email "rohitrawat891997@gmail.com"
             git config --global user.name "Rohit Rawat"
             git add demo-path/web-deployment.yaml
             git commit -m "[CI]: Update nginx image tag"
