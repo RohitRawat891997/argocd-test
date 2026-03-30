@@ -16,5 +16,5 @@ spec:
         app: mypod
     spec:
       containers:
-      - image: rohitrawat891997/nginx:23746138416
+      - image: rohitrawat891997/nginx:23746144429
         name: web
