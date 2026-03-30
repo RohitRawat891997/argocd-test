@@ -57,4 +57,4 @@ jobs:
             git config --global user.name "Rohit Rawat"
             git add demo-path/web-deployment.yaml
             git commit -m "[CI]: Update nginx image tag"
-            git push origin main
+            git push origin HEAD:main
