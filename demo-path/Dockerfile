@@ -1,4 +1,5 @@
-FROM    nginx:latest
-COPY    index.html   /usr/share/nginx/html/index.html
-EXPOSE  80
-CMD     ["nginx" "-g" "daemon off;"]
+FROM  ubuntu
+RUN   apt update &&  apt install -y  apache2
+COPY  index.html  /var/www/html/index.html
+EXPOSE 80
+CMD   ["apache2ctl", "-D", "FOREGROUND"]
